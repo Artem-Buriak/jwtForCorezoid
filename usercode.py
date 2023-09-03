@@ -1,5 +1,4 @@
 import jwt
-from cryptography.hazmat.primitives import serialization
 
 payload_data = {
     "iat": 1696083454,
