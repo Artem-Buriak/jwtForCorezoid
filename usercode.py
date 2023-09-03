@@ -17,5 +17,6 @@ token = jwt.encode(
 )
 
 
-def handle():
-    return token
+def handle(data):
+    data["token"] = token
+    return data
